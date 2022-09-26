@@ -1,0 +1,20 @@
+.navbar_container{
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo{
+    margin: 0 52px;
+}
+
+.navbar_links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.nav-link{
+    font-weight: 500 !important;
+}

@@ -1,0 +1,45 @@
+
+.aboutuscard{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    margin:100 auto;
+    gap: 10px;
+    justify-content: center;
+     padding-right: 290px;
+    padding-left: 290px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .cardcontent{
+    background-color: #FAFAFA;;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color:#474747;
+    font-family: 'Roboto Flex';
+   font-style: normal;
+  font-weight: 400;
+
+  line-height: 150%;
+
+letter-spacing: 0.03em;
+  }
+  .imageaboutcont{
+    margin-bottom: 10px;
+  }
+  @media (width: 600px) {
+    .aboutuscard { 
+      grid-template-columns: repeat(auto-fit,20rem);
+      /* width: 100%; 
+      margin:auto; */
+    
+    }
+  }
+/*   
+@media only screen and (max-width: 600px) {
+	.cardcontent {
+		width: 100%; 
+	}
+	
+} */
